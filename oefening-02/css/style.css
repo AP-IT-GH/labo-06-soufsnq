@@ -5,7 +5,10 @@ aside {
   border-radius: 7px;
   background-color: white;
   box-shadow: 3px 4px 20px 0px gray;
-
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
   /* positioneer dit element in de rechterbenedenhoek */
 }
 

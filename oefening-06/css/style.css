@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+main > div {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+main > div:nth-last-child(3) {background-color: orange;
+    top: 0; left: 0;
+    z-index: 3;
+}
+main > div:nth-last-child(2) {background-color: lightblue;
+    top: 40px; left: 40px;
+    z-index: 2;
+}
+main > div:nth-last-child(1) {background-color: darkblue;
+    top: 80px; left: 80px;
+    z-index: ;
+}
